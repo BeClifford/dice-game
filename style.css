@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: calc(100% - 5rem);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Titan One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.dice-item h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
